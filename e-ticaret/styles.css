@@ -1,0 +1,322 @@
+﻿body {
+    margin:0;
+    padding:0;
+    background-image: url('images/bg.png');
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+    margin: 0 auto;
+}
+.logo {
+    width: 150px;
+    float: left;
+}
+.logo a img{
+    width: 150px;
+}
+.menu {
+    float: left;
+    width: 50%;
+    margin-left: 10%;
+}
+.menu ul{
+    list-style-type:none;
+}
+.menu ul li{
+    text-decoration:none;
+    display:inline;
+}
+    .menu ul li a {
+        text-decoration: none;
+        color:lightpink;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size:20px;
+        margin-right:20px;
+    }
+    .menu ul li a:hover{
+        color:hotpink;
+    }
+.header_right {
+    float: right;
+}
+.search {
+    float: right;
+}
+.search_btn {
+    background: url(images/search.png) no-repeat;
+    width: 18px;
+    height: 18px;
+    border: 0;
+    position: relative;
+    left: -21px;
+    float: right;
+    z-index: 1;
+    top: 8px;
+}
+.search_textbox {
+    width: 184px;
+    height: 29px;
+    border: 2px solid #c9c9c9;
+    margin-right: -7px;
+    float: right;
+    padding-right: 38px;
+    position: relative;
+    background: transparent;
+    color: #bfbfbf;
+    padding-left: 10px;
+}
+    .search_textbox:hover {
+        border: 2px solid hotpink;
+    }
+    .languages {
+        float: right;
+    }
+.language {
+    width: 36px;
+    border: 2px solid #c9c9c9;
+    text-align: center;
+    line-height: 27px;
+    color: #bfbfbf;
+    font-size: 17.5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    float: right;
+    height: 29px;
+    cursor: pointer;
+}
+    .language:hover {
+        color: hotpink;
+        border: 2px solid hotpink;
+    }
+footer {
+    border-top: 1px solid hotpink;
+    display: inline-block;
+    bottom: 0;
+    width: 95%;
+    margin-left: 32.5px;
+    margin-top: 20px;
+}
+.footer_left{
+    float:left;
+}
+    .footer_left p {
+        color: lightpink;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 20px;
+    }
+    .footer_right {
+        float: right;
+        margin-top:11px;
+    }
+.banner {
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 270px;
+    margin: 0 auto;
+}
+    .banner .pink_filter {
+        background: rgba(248 45 217 / 55%);
+        margin: 0 auto;
+        width: 1200px;
+        height: 270px;
+    }
+.banner_title {
+    width: 1200px;
+    margin: -113px auto 0 auto;
+    position: relative;
+}
+.banner_white_title {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 28px;
+    color: lightpink;
+    letter-spacing: 14px;
+    background: #FFF;
+    padding: 6px 13px 6px 30px;
+    display: inline-block;
+}
+    .banner_white_title h1 {
+        font-weight: normal;
+        padding: 0;
+        margin: 0;
+        font-size: 28px;
+    }
+.main {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top:85px;
+}
+.content {
+    margin-top: 85px;
+    width: 100%;
+    min-height: 440px;
+    text-align: center;
+    color: lightpink;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+.contact_map {
+    border: 2px solid lightpink;
+    width: 99.7%;
+    height: 283px;
+}
+.address_block {
+    background: lightpink;
+    float: left;
+    width: 49%;
+    padding: 10px;
+}
+.contact_list {
+    padding-left: 43px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:white;
+    font-size:20px;
+}
+    .contact_list a{
+        color:white;
+        text-decoration:none;
+    }
+    .form_block {
+        padding: 8px 10px 7px 10px;
+        width: 47.5%;
+        border-right: 2px solid lightpink;
+        border-bottom: 2px solid lightpink;
+        float: left;
+    }
+    .form_block .left {
+        width: 262px;
+        float: left;
+        margin-left: 63px;
+    }
+.product_list_block {
+    display:inline-block;
+}
+.product_list {
+    width: 150px;
+    height: auto;
+    padding: 10px;
+    border: 2px solid lightpink;
+    float: left;
+    margin: 0 0px 20px 22px;
+    cursor: pointer;
+    background-color: lightpink;
+    color: white;
+    font-weight:bold;
+}
+    .product_list:hover {
+        background-color: white;
+        color: lightpink;
+    }
+.productdetail_list_block{
+    display:inline-block;
+}
+.productdetail_left{
+    float:left;
+}
+.productdetail_right {
+    width: 63%;
+    padding: 20px;
+    background-color: lightpink;
+    height: 360px;
+    color: white;
+    float: left;
+}
+.productdetail_name{
+    font-weight:bold;
+}
+.productdetail_price{
+    font-weight:bold;
+    float:right;
+}
+.button {
+    background-color: white;
+    color: lightpink;
+    width: 106px;
+    padding: 10px;
+    float: right;
+    cursor: pointer;
+    margin-top: 124px;
+}
+    .button:hover {
+        background-color: hotpink;
+        color: white;
+    }
+#search_result {
+    width: 208px;
+    background-color: white;
+    color: hotpink;
+    max-height: 400px;
+    overflow-y: auto;
+    position: fixed;
+    margin-top: 33px;
+    margin-left: 2px;
+}
+.btn_send {
+    background-color: lightpink;
+    color:white;
+}
+.btn_send:hover{
+    background-color:hotpink;
+}
+.container {
+    width: 200px;
+    height: 380px;
+    border: 1px solid lightpink;
+    overflow: hidden;
+    position: relative;
+    margin-right: 25px;
+    float: left;
+}
+
+.scroll-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    white-space: nowrap; /* Metni yatayda kaydırmak için */
+    color: lightpink;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 21px;
+}
+.container_blog {
+    width: 81%;
+    float: left;
+}
+.blog-post {
+    height: 50%;
+    background-color: lightpink;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    color:white;
+    margin-bottom:20px;
+}
+
+    .blog-post h2 {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+    }
+
+    .blog-post .date {
+        color: #666;
+        font-size: 0.9em;
+        margin-bottom: 10px;
+    }
+
+    .blog-post .excerpt {
+        margin-bottom: 10px;
+    }
+
+    .blog-post .read-more {
+        color: hotpink;
+        text-decoration: none;
+        font-weight: bold;
+    }
+.read-more:hover{
+    opacity:0.4;
+}
+.form_text_message{
+    margin-top:8px;
+}
